@@ -2,6 +2,10 @@
 
 This repository contains all the code necessary to reproduce the results in the blog post "Word Embeddings for Restricted Access Corpora" by Fabian Offert, published on the [WE1S research blog](http://we1s.ucsb.edu/research_post/word-embeddings-for-restricted-access-corpora/).
 
+# Abstract
+
+Given the problem of a restricted access corpus where full texts cannot be stored locally, we propose to make use of the fact that the skip gram algorithm operates on bigrams to train a word embedding model on as little as a word-context-frequency matrix in a highly memory-efficient way.
+
 ## Installation
 
 This repository officially only supports Unix-based operating systems but most likely runs on Windows as well, given a proper Python environment (untested).
