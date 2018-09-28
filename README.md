@@ -28,6 +28,10 @@ Finally, clone this repository and run a `jupyter notebook` server in the reposi
 
 Clone this repository. Open [`run_CPU.sh`](docker/run_CPU.sh) or [`run_GPU.sh`](docker/run_GPU.sh) in a plain text editor of your choice and replace `YOUR PASSWORD HERE` with a password of your choice. Run either `run_GPU.sh` or `run_CPU.sh` for an environment with or without NVIDIA GPU support. NVIDIA support with Docker currently only works under Linux.
 
+## Embedding projector
+
+The notebook interfaces with TensorBoard for the visualization of the produced word embeddings. To start it, run `tensorboard --logdir=projector --port=6006` from within the repository directory.
+
 ![](word_embeddings.png)
 
 *Word embeddings trained with our method in TensorFlow’s embedding projector.*
