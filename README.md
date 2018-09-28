@@ -28,4 +28,4 @@ Clone this repository. Open `run_CPU.sh` or `run_GPU.sh` in a plain text editor 
 
 ![](word_embeddings.png)
 
-Word embeddings trained with our method in TensorFlow’s embedding projector.
+*Word embeddings trained with our method in TensorFlow’s embedding projector.*
