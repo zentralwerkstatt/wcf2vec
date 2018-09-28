@@ -1,4 +1,4 @@
-# Images of Image Machines. Visual Interpretability in Computer Vision for Art
+# Word Embeddings for Restricted Access Corpora
 
 This repository contains all the code necessary to reproduce the results in the blog post "Word Embeddings for Restricted Access Corpora" by Fabian Offert, published on the [WE1S research blog](http://we1s.ucsb.edu/research_post/word-embeddings-for-restricted-access-corpora/).
 
